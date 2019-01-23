@@ -1,6 +1,6 @@
 # Level 4 responsive web design template
 
-** Use this template if you are taking the Web Page Development unit**
+**Use this template if you are taking the Web Page Development unit**
 
 If you are taking Introduction to Web Development, [use the l4-rwd-template files](https://github.com/mmu-webdesign/l4-rwd-template).
 
