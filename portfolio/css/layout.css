@@ -1,0 +1,82 @@
+/* TEMPLATE STYLESHEET */
+
+
+/* These are some suggested groupings for your stylesheet... */
+
+/* Default styling styling for the body.
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;  /* update with Google font, web safe font and generic fallback */
+    font-size: 100%; /* the default browser font size is 16px */
+    line-height: 1 ; /* update to suit your type choices */
+    color: #000;  /* base text colour - update to suit your design */
+}
+
+/* Default element re-sets  */
+
+h1,
+h2,
+h3,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+/* Improves default font styles for forms  */
+
+input,
+textarea {
+    font-family: sans-serif; /* update with Google font, web safe font and generic fallback */
+}
+
+/* box sizing */
+
+
+/* flexible content images code */
+
+
+/* element styling (e.g. standard p, h1, h2, a, etc) */
+
+h1, h2 {
+font-family: Google font, web safe font, generic fallback;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* navigation (using flexbox) */
+
+
+/* page header */
+
+
+/* main layout */
+
+
+/* styling for the section content */
+
+
+/* background colours for sections */
+
+
+/* image gallery media queries and size overrides */
+
+
+/* form styling */
+
+
+/* footer */

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Style guide for ...</title>
+    <meta name="description" content="Add your meta description here">
+
+
+    <!-- Put your google font(s) link(s) here - replace ours -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Staatliches" rel="stylesheet">
+
+    <style>
+        /* This is where you modify the code to use your fonts and colours */
+        
+        .swatch-1 {
+            background-color: red;
+        }
+        
+        .swatch-2 {
+            background-color: green;
+        }
+        
+        .swatch-3 {
+            background-color: blue;
+        }
+        
+        .swatch-4 {
+            background-color: purple;
+        }
+        /* Add the supplied CSS for your chosen Google Font */
+        
+        .type-1 {
+            font-family: 'pt sans', sans-serif;
+        }
+        /* Add the supplied CSS for your 2nd Google Font if you have one */
+        
+        .type-2 {
+            font-family: 'Staatliches', serif;
+        }
+        /* Following is the code that creates the layout for the style guide - you are free to change this if you want to */
+        
+        html {
+            box-sizing: border-box;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            line-height: 1.35;
+            padding: 1rem;
+            color: #222;
+        }
+        
+        @media screen and (min-width: 600px) {
+            body {
+                padding: 4rem;
+            }
+        }
+        
+        h1,
+        h2,
+        h3,
+        p {
+            margin: 0;
+            padding: 0;
+            font-size: 1em;
+        }
+        
+        .container {
+            border-top: 1px solid #ddd;
+        }
+        
+        .container h1 {
+            padding: 0.3em 0 5rem 0;
+        }
+        
+        .container h1 strong {
+            display: block;
+            font-size: 2.3em;
+            font-weight: 100;
+        }
+        
+        section {
+            padding-bottom: 3em;
+        }
+        
+        section h2 {
+            border-top: 1px solid #ddd;
+            padding: 0.3em 0 1em 0;
+        }
+        
+        .swatches {
+            display: flex;
+            flex-wrap: wrap;
+            color: #555;
+            padding-bottom: 3em;
+        }
+        
+        @media screen and (min-width: 700px) {
+            .swatches {
+                flex-wrap: nowrap;
+            }
+        }
+        
+        .swatches p.hex {
+            font-family: monospace;
+        }
+        
+        .colour-swatch {
+            margin-right: 1em;
+        }
+        
+        .swatch {
+            width: 100%;
+            margin: 1em 0;
+            min-height: 100px;
+            border: 1px solid #eee;
+        }
+        
+        .type {
+            margin-bottom: 3em;
+        }
+        
+        .type p.big-example {
+            font-size: 3em;
+            line-height: 1;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+        
+        .type p.why {
+            color: #666;
+            margin-top: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Style guide for YOUR SITE NAME</h1>
+
+        <section>
+            <h2>Colours</h2>
+            <div class="swatches">
+
+                <!-- Delete or add swatches as required. -->
+
+                <div class="colour-swatch">
+                    <div class="swatch swatch-1"></div>
+                    <p class="hex">[put the 'hex code' here, e.g. #cc3300]</p>
+                    <p class="usage">This colour is used for [...]</p>
+                </div>
+
+                <div class="colour-swatch">
+                    <div class="swatch swatch-2"></div>
+                    <p class="hex">[put the 'hex code' here, e.g. #cc3300]</p>
+                    <p class="usage">This colour is used for [...]</p>
+                </div>
+
+                <div class="colour-swatch">
+                    <div class="swatch swatch-3"></div>
+                    <p class="hex">[put the 'hex code' here, e.g. #cc3300]</p>
+                    <p class="usage">This colour is used for [...]</p>
+                </div>
+
+                <div class="colour-swatch">
+                    <div class="swatch swatch-4"></div>
+                    <p class="hex">[put the 'hex code' here, e.g. #cc3300]</p>
+                    <p class="usage">This colour is used for [...]</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Typography</h2>
+            <!-- Choose up to two typefaces. -->
+            <div class="type">
+                <p class="big-example type-1">ABCDEabcde123 Il1 handgloves</p>
+                <p class="type-1">The wily fox jumped over the lazy dog. </p>
+                <p class="why">This typeface is used for [...].</p>
+            </div>
+
+            <!-- Remove or comment out if only using one typeface. -->
+            <div class="type">
+                <p class="big-example type-2">ABCDEabcde123 Il1 handgloves</p>
+                <p class="type-2">The wily fox jumped over the lazy dog. </p>
+                <p class="why">This typeface is used for [...].</p>
+            </div>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html
