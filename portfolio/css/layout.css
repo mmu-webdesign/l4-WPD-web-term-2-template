@@ -6,12 +6,12 @@
 /* Default styling styling for the body.
 */
 body {
-    margin: 0;
-    padding: 0;
     font-family: sans-serif;  /* update with Google font, web safe font and generic fallback */
     font-size: 100%; /* the default browser font size is 16px */
     line-height: 1 ; /* update to suit your type choices */
     color: #000;  /* base text colour - update to suit your design */
+    margin: 0; /* removes the browser defaults */
+    padding: 0; /* removes the browser defaults */
 }
 
 /* Default element re-sets  */
